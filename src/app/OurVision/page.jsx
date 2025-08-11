@@ -64,14 +64,14 @@ export default function OurVision() {
           <motion.div>
             <motion.p
               {...fadeUp}
-              transition={{ ...fadeUp.transition, delay: 2.5 }}
+              transition={{ ...fadeUp.transition, delay: 2 }}
               className="font-semibold"
             >
               Sanib
             </motion.p>
             <motion.p
               {...fadeUp}
-              transition={{ ...fadeUp.transition, delay: 3 }}
+              transition={{ ...fadeUp.transition, delay: 2 }}
               className="text-gray-500"
             >
               Founder & CEO, Salon Staff Provider
