@@ -56,7 +56,8 @@ export default function Services() {
           to start
         </motion.p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+      <motion.div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {serviceList.map((item, index) => {
           return (
             <motion.div
@@ -66,7 +67,7 @@ export default function Services() {
                 delay: 0.5 * (index % 3) + 1,
               }}
               key={index}
-              className="p-4 rounded-xl border-[1px] border-[#E2E8F0] flex flex-col gap-2 cursor-pointer  hover:shadow-[0px_0px_40px_2px]  shadow-[#813BED]  transition-all"
+              className="p-4 rounded-xl border-[1px] border-[#E2E8F0] flex flex-col gap-2 cursor-pointer  hover:shadow-[0px_0px_40px_2px]  shadow-[#813BED] "
             >
               <div className="h-8 lg:h-12 flex gap-2 items-center">
                 <span className="flex items-center justify-center text-2xl h-full aspect-square rounded-lg bg-gradient-to-br from-[#813BED] to-[#C539E4] text-white">
@@ -85,7 +86,7 @@ export default function Services() {
             </motion.div>
           );
         })}
-      </div>
+      </motion.div>
     </div>
   );
 }

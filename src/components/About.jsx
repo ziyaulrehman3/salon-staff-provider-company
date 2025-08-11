@@ -72,7 +72,7 @@ export default function About() {
           <motion.div
             {...fadeLeft}
             transition={{ ...fadeUp.transition, delay: 0.5 }}
-            className="relative w-[90%] rounded-xl aspect-[16/9] overflow-hidden  hover:shadow-[0px_0px_40px_2px]  shadow-[#813BED]  transition-all "
+            className="relative w-[90%] rounded-xl aspect-[16/9] overflow-hidden  hover:shadow-[0px_0px_40px_2px]  shadow-[#813BED] "
           >
             <Image
               src="/img2.jpg"
@@ -85,7 +85,7 @@ export default function About() {
           <motion.div
             {...fadeLeft}
             transition={{ ...fadeUp.transition, delay: 1 }}
-            className="relative w-[90%] rounded-xl aspect-[16/9] overflow-hidden  hover:shadow-[0px_0px_40px_2px]  shadow-[#813BED]  transition-all "
+            className="relative w-[90%] rounded-xl aspect-[16/9] overflow-hidden  hover:shadow-[0px_0px_40px_2px]  shadow-[#813BED]"
           >
             <Image
               src="/img3.jpg"

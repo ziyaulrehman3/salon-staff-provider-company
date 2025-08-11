@@ -13,10 +13,10 @@ export default function OurVision() {
   return (
     <motion.div className="w-full py-16 pt-24 px-8   border-b-[1px] border-[#E2E8F0] flex flex-col gap-8">
       <motion.div className="flex flex-col gap-2">
-        <h1 {...fadeUp} className="text-3xl font-semibold">
+        <motion.h1 {...fadeUp} className="text-3xl font-semibold">
           Our Vision
-        </h1>
-        <p
+        </motion.h1>
+        <motion.p
           {...fadeUp}
           transition={{ ...fadeUp.transition, delay: 0.5 }}
           className="w-full md:w-[80%] lg:w-[70%] text-lg text-gray-500"
@@ -25,14 +25,14 @@ export default function OurVision() {
           skill-first. By combining rigorous verification with a human touch, we
           help salons hire in one day and enable professionals to grow
           meaningful careers.
-        </p>
+        </motion.p>
       </motion.div>
 
       <motion.div className="w-full grid grid-cols-1 lg:grid-cols-4 gap-4">
         <motion.div
           {...fadeRight}
           transition={{ ...fadeRight.transition, delay: 1 }}
-          className="col-span-1  relative aspect-square rounded-xl overflow-hidden border-[1px] border-[#E2E8F0] hover:shadow-[0px_0px_40px_2px]  shadow-[#813BED]  transition-all cursor-pointer"
+          className="col-span-1  relative aspect-square rounded-xl overflow-hidden border-[1px] border-[#E2E8F0] hover:shadow-[0px_0px_40px_2px]  shadow-[#813BED] cursor-pointer"
         >
           <Image
             src="/photo.jpeg"

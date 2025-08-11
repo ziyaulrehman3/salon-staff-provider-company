@@ -55,8 +55,9 @@ export default function Contact() {
           return (
             <motion.div
               {...fadeUp}
+              key={index}
               transition={{ ...fadeUp.transition, delay: 0.5 * index }}
-              className="rounded-lg cursor-pointer border-[1px] border-gray-500 p-4 py-8 gap-4 hover:-translate-y-2 hover:shadow-[0px_0px_20px_2px]  shadow-[#813BED]  transition-all"
+              className="rounded-lg cursor-pointer border-[1px] border-gray-500 p-4 py-8 gap-4 hover:-translate-y-2 hover:shadow-[0px_0px_20px_2px]  shadow-[#813BED] "
             >
               <h1 className="flex gap-2 items-center font-semibold text-lg">
                 <span className="text-[#813BED]">{item.icon}</span>
