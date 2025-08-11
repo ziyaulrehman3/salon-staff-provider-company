@@ -31,7 +31,7 @@ export default function OurVision() {
       <motion.div className="w-full grid grid-cols-1 lg:grid-cols-4 gap-4">
         <motion.div
           {...fadeRight}
-          transition={{ ...fadeUp.transition, delay: 1 }}
+          transition={{ ...fadeRight.transition, delay: 1 }}
           className="col-span-1  relative aspect-square rounded-xl overflow-hidden border-[1px] border-[#E2E8F0] hover:shadow-[0px_0px_40px_2px]  shadow-[#813BED]  transition-all cursor-pointer"
         >
           <Image
@@ -61,19 +61,12 @@ export default function OurVision() {
             success for everyone."
           </motion.p>
 
-          <motion.div>
-            <motion.p
-              {...fadeUp}
-              transition={{ ...fadeUp.transition, delay: 2 }}
-              className="font-semibold"
-            >
-              Sanib
-            </motion.p>
-            <motion.p
-              {...fadeUp}
-              transition={{ ...fadeUp.transition, delay: 2 }}
-              className="text-gray-500"
-            >
+          <motion.div
+            {...fadeUp}
+            transition={{ ...fadeUp.transition, delay: 2 }}
+          >
+            <motion.p className="font-semibold">Sanib</motion.p>
+            <motion.p className="text-gray-500">
               Founder & CEO, Salon Staff Provider
             </motion.p>
           </motion.div>
