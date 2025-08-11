@@ -61,7 +61,10 @@ export default function Services() {
           return (
             <motion.div
               {...fadeUp}
-              transition={{ ...fadeUp.transition, delay: 0.5 * index + 1 }}
+              transition={{
+                ...fadeUp.transition,
+                delay: ((0.5 * index) % 3) + 1,
+              }}
               key={index}
               className="p-4 rounded-xl border-[1px] border-[#E2E8F0] flex flex-col gap-2 cursor-pointer  hover:shadow-[0px_0px_40px_2px]  shadow-[#813BED]  transition-all"
             >
