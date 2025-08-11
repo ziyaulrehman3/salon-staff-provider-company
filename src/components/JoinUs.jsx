@@ -1,6 +1,6 @@
 "use client";
 
-import HeroButton from "./global/extra/HeroButton";
+import HeroButton from "./global/Extra/HeroButton";
 import { BsHandIndexFill } from "react-icons/bs";
 import { SiTicktick } from "react-icons/si";
 import { RiScissorsFill } from "react-icons/ri";
