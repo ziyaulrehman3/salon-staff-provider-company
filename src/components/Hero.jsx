@@ -1,6 +1,6 @@
 "use client";
 
-import HeroButton from "@/components/global/Extra/HeroButton";
+import HeroButton from "./global/Extra/HeroButton";
 import { HiOutlineBolt } from "react-icons/hi2";
 import { BsShieldCheck } from "react-icons/bs";
 import { MdOutlineTimer } from "react-icons/md";
